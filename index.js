@@ -5,8 +5,8 @@
  * This is a base class for backend database connections.
  * It is specifically designed for Node.js (not the browser).
  * This class contains generic methods and attributes for
- * managing things like simple data encryption, reconnect options,
- * autoconnect, and provides a generic event system among other things.
+ * managing things like simple data encryption and post
+ * save/fetch operations.
  */
 class DatabaseProxy extends NGN.DATA.Proxy {
   constructor (config) {
