@@ -1,6 +1,6 @@
 {
   "name": "ngnx-data-proxy-database",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A base class for persisting data to a database. This supports file system data stores as well, but is restricted to Node.js (backend) use. This will not work in a browser.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ngnjs/ngnx-data-proxy-database#readme",
   "dependencies": {
-    "ngn-data": "^0.0.44",
+    "ngn-data": "^0.0.45",
     "proper-lockfile": "^2.0.0"
   },
   "devDependencies": {
