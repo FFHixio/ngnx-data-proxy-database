@@ -1,10 +1,10 @@
 {
   "name": "ngnx-data-proxy-database",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A base class for persisting data to a database. This supports file system data stores as well, but is restricted to Node.js (backend) use. This will not work in a browser.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/**/*.js | tap-spec && snazzy --verbose"
+    "test": "tape test/**/*.js | tap-spec && standard | snazzy --verbose"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ngnjs/ngnx-data-proxy-database#readme",
   "dependencies": {
-    "ngn-data": "^0.0.49",
+    "ngn-data": "^0.1.2",
     "proper-lockfile": "^2.0.0"
   },
   "devDependencies": {
@@ -34,8 +34,8 @@
     "gulp-strip-comments": "^2.4.3",
     "ngn": "^0.3.28",
     "shortbus": "^1.2.7",
-    "snazzy": "^2.0.1",
-    "standard": "^5.3.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
     "standard-tap": "^1.0.1",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.2"
